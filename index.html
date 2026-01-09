@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--Youtube: Netmediacctv-->
+	<title>Form Đăng ký</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <section class="hero is-primary is-bold is-center">
+      <div class="hero-body container"  style="height:50px; padding: 5px;">
+          <span style="font-size: 30px; color: #ffffff; font-weight: bold;">ĐĂNG KÝ TÀI KHOẢN</span>	
+		  	
+      </div>
+	  <a href="/" class="logo-fixed">
+  <img src="logo.png" alt="Logo">
+</a>
+
+
+    </section>
+	<div style="height: 10px"></div>
+	<div class="container" style="border: solid 2px #00a779; border-radius: 10px" > 
+		<form id="form" class="box" method="POST">
+			
+			<label style="text-align: left; height:50px; padding: 10px; font-weight: bold;color: #1ce064;font-size: 20px;">
+1. THÔNG TIN CHUNG
+</label>
+
+			<div class="field">
+				<label class="label">Họ và tên</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Họ và tên của bạn"
+						   name="Họ và tên" />
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">SĐT</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Nhập SĐT"
+						   name="SĐT" />
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">Biển số</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Nhập biển số"
+						   name="Biển số" />
+				</div>
+			</div>
+
+			<div class="field">
+				<label class="label">Địa chỉ</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Nhập địa chỉ"
+						   name="Địa chỉ" />
+				</div>
+			</div>
+
+<label style="text-align: left; height:50px; padding: 10px; font-weight: bold;color: #1ce064;font-size: 20px;">
+2. TÌNH TRẠNG XE, YÊU CẦU SỬA CHỮA
+</label>
+
+			<div class="field">
+				<label class="label">Tình trạng hiện tại</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Nhập tình trạng hiện tại"
+						   name="Tình trạng hiện tại" />
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Dịch vụ mong muốn</label>
+				<div class="control">
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Thay dầu động cơ" /> Thay dầu động cơ
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Thay lốp" /> Thay lốp
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Sửa máy" /> Sửa máy
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Điện – đèn – còi" /> Điện – đèn – còi
+					</label>
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Phanh" /> Phanh
+					</label>
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Bảo dưỡng định kỳ" /> Bảo dưỡng định kỳ
+					</label>
+					</label>
+					<label class="radio">
+						<input type="radio" name="Dịch vụ mong muốn" value="Khác" /> Khác
+					</label>
+				</div>
+			</div>
+<label style="text-align: left; height:50px; padding: 10px; font-weight: bold;color: #1ce064;font-size: 20px;">
+3. THỜI GIAN VÀ HÌNH THỨC SỬA CHỮA
+</label>
+
+			<div class="field">
+			<label class="label">Ngày đăng ký sửa</label>
+			<div class="control">
+			  <input
+				class="input"
+				type="date"
+				id="ngayDangKy"
+				placeholder="Nhập ngày đăng ký sửa"
+				name="Ngày đăng ký sửa"
+			  />
+			</div>
+		  </div>
+		  
+
+			<div class="field">
+				<label class="label">Hình thức sửa chữa</label>
+				<div class="control">
+					<label class="radio">
+						<input type="radio" name="Hình thức sửa chữa" value="Đem xe tới sửa" /> Đem xe tới sửa
+					</label>
+					<label class="radio">
+						<input type="radio" name="Hình thức sửa chữa" value="Khách mang xe đến xưởng" /> Khách mang xe đến xưởng
+					</label>
+
+				</div>
+			</div>
+			<div class="field">
+				<label class="label">Ghi chú thêm cho thợ</label>
+				<div class="control">
+					<input class="input"
+						   type="text"
+						   placeholder="Nhập"
+						   name="Ghi chú thêm cho thợ" />
+				</div>
+			</div>
+
+
+			<div class="field is-grouped is-justify-content-center">
+				<div class="control">
+					<button class="button is-primary" type="submit" style="text-align: center" id="submit-button">
+						Hoàn thành
+					</button>
+				</div>
+				<div class="control">
+					<button class="button is-danger" type="button" onclick="getNewRecord()">Cancel</button>
+				</div>
+			</div>
+		</form>
+		<div
+		  id="message"
+		  style="
+			display: none;
+			margin: 20px;
+			font-weight: bold;
+			color: green;
+			padding: 8px;
+			background-color: beige;
+			border-radius: 4px;
+			border-color: aquamarine;
+			
+		  "
+		></div>
+	</div>
+	
+
+    <script>
+		
+      document.getElementById("form").addEventListener("submit", function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        document.getElementById("message").textContent = "Submitting..";
+        document.getElementById("message").style.display = "block";
+        document.getElementById("submit-button").disabled = true;
+
+
+        // Collect the form data
+        var formData = new FormData(this);
+        var keyValuePairs = [];
+        for (var pair of formData.entries()) {
+          keyValuePairs.push(pair[0] + "=" + pair[1]);
+        }
+
+        var formDataString = keyValuePairs.join("&");
+
+        // Send a POST request to your Google Apps Script
+        fetch(
+          "https://script.google.com/macros/s/AKfycbybc457TTatZqbzU3NNb38RX1uhja9N1hXxweRzikBi_YPzveLeHzHPYX1RM3EC1r3f/exec",
+          {
+            redirect: "follow",
+            method: "POST",
+            body: formDataString,
+            headers: {
+              "Content-Type": "text/plain;charset=utf-8",
+            },
+          }
+        )
+          .then(function (response) {
+            // Check if the request was successful
+            if (response) {
+              return response; // Assuming your script returns JSON response
+            } else {
+              throw new Error("Failed to submit the form.");
+            }
+          })
+          .then(function (data) {
+            // Display a success message
+            document.getElementById("message").textContent =
+              "Data submitted successfully!";
+            document.getElementById("message").style.display = "block";
+            document.getElementById("message").style.backgroundColor = "green";
+            document.getElementById("message").style.color = "beige";
+            document.getElementById("submit-button").disabled = false;
+            document.getElementById("form").reset();
+
+            setTimeout(function () {
+              document.getElementById("message").textContent = "";
+              document.getElementById("message").style.display = "none";
+            }, 2600);
+          })
+          .catch(function (error) {
+            // Handle errors, you can display an error message here
+            console.error(error);
+            document.getElementById("message").textContent =
+              "An error occurred while submitting the form.";
+            document.getElementById("message").style.display = "block";
+          });
+      });
+	  
+	    function getNewRecord(){
+		document.getElementById("form").reset();
+		
+		};
+		
+    </script>
+	<style>
+.logo-fixed {
+  position: absolute;
+  top: 1.5vw;          /* tự co giãn theo màn hình */
+  left: 1.5vw;
+  width: 8vw;          /* kích thước theo viewport */
+  max-width: 80px;     /* không to quá */
+  min-width: 50px;     /* không nhỏ quá */
+  z-index: 9999;
+}
+
+.logo-fixed img {
+  width: 100%;
+  height: auto;
+}
+</style>
+<style>
+@media (max-width: 768px) {
+  .radio {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .hero-body span {
+    font-size: 20px !important;
+  }
+
+  .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .field.is-grouped {
+    flex-direction: column;
+  }
+}
+</style>
+
+
+
+	
+  </body>
+</html>
